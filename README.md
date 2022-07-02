@@ -15,7 +15,7 @@ Software engineer
 
 Languages:
 + Spanish (Native)
-+ English (Fluent)
++ English (Fluent / C2 EF SET test)
 
 ## Technical Skills
 **Proficient:** Python, Django, Postgres / SQL, Golang, Linux, Bash, Javascript, HTML, CSS, Svelte, TailwindCSS, Blender, Git
