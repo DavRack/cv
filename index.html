@@ -7,7 +7,7 @@
       <div class="flex flex-row justify-between text-sm">
         <div class="flex flex-col">
           <b>City / Country: </b>
-          <div>El Carmen de Viboral, Colombia</div>
+          <div>Carmen de Viboral, Colombia</div>
         </div>
         <div class="flex flex-col">
           <b>Email: </b>
@@ -27,17 +27,15 @@
         </div>
       </div>
     </div>
-
     <div>
       <b class="cv-section">Skills</b>
       <hr class="mt-0">
-      <ul class="mt-0 pl-0">
-        <li><b>Languages: </b> Spanish (Native), English (C2 / Proficient)</li>
-        <li><b>Programming Languages: </b>Python, Javascript, Golang, SQL, Bash, HTML, CSS, C, Lua, Arduino.</li>
+      <ul class="description">
+        <li><b>Programming Languages: </b>Python, Javascript, Golang, Rust, SQL, Bash, HTML, CSS, C, Lua, Arduino.</li>
         <li><b>Frameworks and Tools: </b>Django, Svelte, Linux, Docker, Git, Postgres, TailwindCSS, KVM, Blender, Vim.</li>
+        <li><b>Languages: </b> Spanish (Native), English (C2 / Proficient)</li>
       </ul>
     </div>
-
     <div>
       <b class="cv-section">Experience</b>
       <hr class="mt-0">
@@ -46,12 +44,12 @@
         <b>Vertical tech S.A.S</b>
         <b>Apr 2021 - Present</b>
       </div>
-    <ul>
+      <ul class="description">
         <li>Maintained and develop a I+D web app for one of the larges business conglomerates in Colombia working with both legacy and new code.</li>
         <li>Implemented parsing systems for informal text into a structured form.</li>
         <li>Generated rich programmatic db reports in Excel and a dashboard in Web technologies.</li>
-        <li>Architect a new application features for modularity and maintainability.</li>
-        <li>Deep interaction with final clients to discuss and integrate complex business logic.</li>
+        <li>Architect new application features for modularity and maintainability.</li>
+        <li>Performed deep technical interactions with clients to discuss and integrate complex business logic.</li>
         <li>Teach technical concepts to multiple project managers in live sections.</li>
         <li>Optimized backend response performance by 40% optimizing and debugging complex Django O.R.M queries.</li>
       </ul>
@@ -60,7 +58,7 @@
         <b>Universidad Nacional de Colombia</b>
         <b>Oct 2019 - Jan 2021</b>
       </div>
-    <ul>
+      <ul class="description">
         <li>Teach and grade 150+ students about Linux, Networking and Operating systems fundamentals.</li>
         <li>Develop grading scripts in Bash.</li>
       </ul>
@@ -75,7 +73,7 @@
           <b>Low level keyboard programing</b>
         </div>
         <a href="https://github.com/DavRack/skr"><i>github.com/DavRack/skr</i></a>
-        <ul>
+      <ul class="description">
           <li>Low level Linux tool to remap keyboard events.</li>
           <li>Writen in C and Python.</li>
           <li>Uses Libevdev, Systemd and Linux pipelines.</li>
@@ -83,13 +81,14 @@
       </div>
       <div>
         <div class="flex flex-row justify-between mx-1">
-          <b>Froggy the bot</b>
-          <b>Cuadrupet robot</b>
+          <b>S.K.R</b>
+          <b>Low level keyboard programing</b>
         </div>
-        <ul>
-          <li>A WiFi controlled Cuadrupet robot.</li>
-          <li>Programed in Python and Arduino code.</li>
-          <li>It uses an ESP-32 as a micro controller and WiFi antenna.</li>
+        <a href="https://github.com/DavRack/scf"><i>github.com/DavRack/scf</i></a>
+      <ul class="description">
+          <li>Low level Linux tool to remap keyboard events.</li>
+          <li>Writen in C and Python.</li>
+          <li>Uses Libevdev, Systemd and Linux pipelines.</li>
         </ul>
       </div>
     </div>
@@ -100,12 +99,24 @@
       <div class="flex flex-row justify-between">
         <b>Software engineer</b>
         <b>Universidad Nacional de Colombia</b>
-        <b>Espected may 2023</b>
+        <b>April 2023</b>
       </div>
-    <ul>
-        <li><b>Relevant classes: </b>Data structures, Algorithms, Software architecture and design patters,
-          Software engineering, Artifitial inteligence, Object Oriented Programming, Functional Programming,
-          Relational data bases, Non-Relational data-bases , Computer architecture, Operating Systems, Computer vision
+      <ul class="description">
+        <li><b>Relevant coursework: </b>
+          <div class="grid grid-cols-2">
+            <div>✓ Data structures</div>
+            <div>✓ Algorithms</div>
+            <div>✓ Software architecture and design patters</div>
+            <div>✓ Software engineering</div>
+            <div>✓ Artifitial inteligence</div>
+            <div>✓ Object Oriented Programming</div>
+            <div>✓ Functional Programming</div>
+            <div>✓ Relational data bases</div>
+            <div>✓ Non-Relational data-bases</div>
+            <div>✓ Computer architecture</div>
+            <div>✓ Operating Systems</div>
+            <div>✓ Computer vision</div>
+          </div>
         </li>
       </ul>
     </div>
@@ -113,7 +124,7 @@
     <div>
       <b class="cv-section">Certifications</b>
       <hr class="mt-0">
-    <ul>
+      <ul class="description">
         <li><b>EF SET English Certificate 80/100 (C2 Proficient)</b></li>
       </ul>
     </div>
@@ -136,6 +147,9 @@
     background-color: black;
     border: solid;
     border-width: 0.125em;
+  }
+  .grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .w-48{
     width: 42em;
@@ -183,6 +197,10 @@
   }
   .mt-0{
     margin-top: 0rem;
+  }
+  .description{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   .pl-0{
     padding-left: 1rem;
