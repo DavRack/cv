@@ -1,7 +1,7 @@
 <head>
 </head>
 <body>
-  <div id="page" class="flex flex-col justify-between">
+  <div size="A4" id="page" class="flex flex-col justify-between" onclick="window.print();" title="print">
     <div>
       <h2 class="text-center mb-1">David Londoño Montoya</h2>
       <div class="flex flex-row justify-between text-sm">
@@ -33,6 +33,7 @@
       <ul class="description">
         <li><b>Programming Languages: </b>Python, TypeScript, Javascript, Golang, Rust,SQL, HTML, CSS, Bash, C, Arduino.</li>
         <li><b>Frameworks and Tools: </b>Django, Svelte, Linux, Docker, Git, Postgres, TailwindCSS, Notion.</li>
+        <li><b>Soft skills: </b>Problem-solving, Communication, Teamwork, Attention to detail, Creativity, Adaptability.</li>
         <li><b>Languages: </b> Spanish (Native), English (C2 / Proficient)</li>
       </ul>
     </div>
@@ -55,15 +56,18 @@
         <b>Apr 2021 - Present</b>
       </div>
       <ul class="description">
-        <li>Maintained and develop a SPA web app for one of the larges business conglomerates in Colombia working with both legacy and new code mainy in Svelte, Python, Django rest, Javascript, PostgreSQL.</li>
-        <li>Optimized backend response performance by 40% optimizing and debugging complex Django O.R.M queries.</li>
-        <li>Implemented parsing systems for informal text into a structured form.</li>
-        <li>Generated rich programmatic db reports in Excel and a dashboard in Web technologies.</li>
-        <li>Architect a new application features for modularity and maintainability.</li>
-        <li>Perform deep interaction with final clients to discuss and integrate complex business logic.</li>
-        <li>Develop and maintain scripts to perform deploys and other developer process to improve developer experience and speed up deploys by 320%.</li>
-        <li>Teached technical concepts to project managers in live sessions.</li>
-        <li>Develop and maintain scripts to import data from XLSX documents into relational databases.</li>
+        <li>Led the architecture, design, and development of over 50 innovative features.</li>
+        <li>Effectively presented and communicated ideas and designs to more than 20 key business stakeholders</li>
+        <li>Spearheaded the development and maintenance of a Single-Page Application (SPA) for a prominent business conglomerate in Colombia.</li>
+        <li>Worked with both legacy and new code mainly in Svelte, Python, Django rest, Javascript, PostgreSQL.</li>
+        <li>Optimized backend response performance by 40% through the optimization and debugging of complex (O.R.M) queries</li>
+        <li>Actively participated in more than 50 weekly code reviews to ensure the highest standards of code quality and system efficiency..</li>
+        <li>Successfully migrated legacy code to a modern, maintainable, and testable codebase.</li>
+        <li>Designed and implemented a sophisticated parsing system capable of transforming informal text into a structured form using a DSL.</li>
+        <li>Generated comprehensive programmatic database reports in Excel and developed a dynamic dashboard using web technologies.</li>
+        <li>Architected new application features with a focus on modularity and maintainability.</li>
+        <li>Developed and implemented scripts for deployment, data import, and other processes, resulting in a time-saving of over 5 hours per week</li>
+        <li>Successfully implemented both first and third-party APIs.</li>
       </ul>
       <div class="flex flex-row justify-between">
         <b>Software Engineering Tutor</b>
@@ -71,8 +75,8 @@
         <b>Oct 2019 - Jan 2021</b>
       </div>
       <ul class="description">
-        <li>Teach and grade 150+ students about Linux, Networking and Operating systems fundamentals.</li>
-        <li>Develop grading scripts in Bash and Python.</li>
+        <li>Educated and assessed a diverse student body of over 150 individuals in the fundamentals of Linux, Networking, and Operating Systems.</li>
+        <li>Developed comprehensive grading scripts utilizing Bash and Python to streamline and automate the evaluation process.</li>
       </ul>
     </div>
 
@@ -86,7 +90,7 @@
         </div>
       <ul class="description">
           <li>Low level Linux tool to remap keyboard events.</li>
-          <li>Writen in C and Python.</li>
+          <li>Written in C and Python then rewritten in Rust.</li>
           <li>Integrates other linux programs using posix pipes, aditionaly uses Libevdev and Systemd</li>
           <li>Fully open-source</li>
         </ul>
@@ -98,7 +102,7 @@
         </div>
       <ul class="description">
           <li>Command line tool to efectively search for code in a specific context written in Rust</li>
-          <li>Integrates 3rd party crates like Clap, Tree-sitter,  hcl-rs</li>
+          <li>Integrates 3rd party crates like Clap, Tree-sitter and hcl-rs</li>
           <li>Fully open-source</li>
         </ul>
       </div>
@@ -143,21 +147,46 @@
 </body>
 <style>
   #page {
-    width: 210mm;
-    height: 297mm;
+    width: 21cm;
+    height: 30.35cm;
     padding: 8mm;
     background-color: white;
     margin: auto;
+    margin-bottom: 0;
     font-family: Arial, sans-serif;
     line-height: 1.25;
-    font-size: 14px;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   }
-  a {
+  @media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  a{
     color: #007bff;
     text-decoration: none;
   }
   body{
     background-color: #eeeeef;
+    margin: 0;
+    padding: 0;
   }
   .cv-section{
     font-size: 1.5em;
