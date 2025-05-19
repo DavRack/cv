@@ -61,135 +61,59 @@
 ]
 
 #let cv_template(
-	name: "David Londoño Montoya",
-	city_country: "Carmen de Viboral, Colombia",
-	email: "jobs@davidlondono.dev",
-	phone_number: "+57 3205901539",
+	city_country: "",
+	email: "",
+	name: "",
+	phone_number: "",
 	links: (
 		(
-			name: "Linkedin",
-			link: "https://www.linkedin.com/in/davrack"
-		),
-		(
-			name: "Github",
-			link: "https://www.github.com/DavRack"
+			name: "",
+			link: ""
 		),
 	),
 	skills: (
 		(
-			name: "Programming Languages",
-			skills: ("Python", "TypeScript", "Golang", "Rust", "SQL", "HTML", "CSS", "Bash", "C", "Arduino")
-		),
-		(
-			name: "Frameworks and Tools",
-			skills: ("Svelte", "Linux", "Docker", "Git", "Postgres", "TailwindCSS", "Notion", "Splunk", "AWS", "Gitlab CI/CD", "Kubernets")
-		),
-		(
-			name: "Soft skills",
-			skills: ("Problem-solving", "Communication", "Teamwork", "Attention to detail", "Creativity", "Adaptability")
-		),
-		(
-			name: "Languages",
-			skills: ("Spanish (Native)", "English (C1 / Proficient)")
+			name: "",
+			skills: ("")
 		),
 	),
-	summary: "I'm an daptable and enthusiastic Full Stack Software Developer with more than 4 years of experience, with a strong background in delivering high-quality solutions and leveraging in-depth business knowledge for successful implementations. Offers a perfect blend of technical expertise, effective communication, and a passion for continuous learning. Excels in collaborating with cross-functional teams and understanding complex technical concepts.",
+	summary: "",
 	experience: (
 		(
-			position: "Software engineer",
-			company: "EPAM",
-			start_date: "Dec 2023",
-			end_date: "Present",
+			position: "",
+			company: "",
+			start_date: "",
+			end_date: "",
 			description: (
-	      "Developed and Mantained CI/CD pipelines using Gitlab CI/CD",
-        "Implemented Teradata to GCP query translation using GPT-4o API's",
-        "Developed a backend service to validate and translate GPC Vertex pipelines",
-
-			)
-		),
-		(
-			position: "Full stack software engineer",
-			company: "Vertical tech S.A.S",
-			start_date: "Apr 2021",
-			end_date: "Dec 2023",
-			description: (
-        "Led the architecture, design, and development of over 50 innovative features.",
-        "Effectively presented and communicated ideas and designs to more than 20 key business stakeholders",
-        "Spearheaded the development and maintenance of a Single-Page Application (SPA) for a prominent business conglomerate in Colombia.",
-        "Worked with both legacy and new code mainly in Svelte, Python, Django rest, Javascript, PostgreSQL.",
-        "Optimized backend response performance by 40% through the optimization and debugging of complex (O.R.M) queries",
-        "Actively participated in more than 40 weekly code reviews to ensure the highest standards of code quality and system efficiency..",
-        "Successfully migrated legacy code to a modern, maintainable, and testable codebase.",
-        "Designed and implemented a sophisticated parsing system capable of transforming informal text into a structured form using a DSL.",
-        "Generated comprehensive programmatic database reports in Excel and developed a dynamic dashboard using web technologies.",
-        "Architected new application features with a focus on modularity and maintainability.",
-        "Developed scripts for deployment, data import, and other processes, resulting in a time-saving of over 5 hours per week",
-        "Successfully implemented both first and third-party APIs.",
-			)
-		),
-		(
-			position: "Software Engineering Tutor",
-			company: "Universidad Nacional de Colombia",
-			start_date: "Oct 2019",
-			end_date: "Jan 2021",
-			description: (
-        "Teached and assessed a over 150 individuals in the fundamentals of Linux, Networking, and Operating Systems.",
-        "Created comprehensive grading scripts utilizing Bash and Python to streamline and automate the evaluation process.",
+	      "",
 			)
 		),
 	),
 	projects: (
 		(
-			name: "Low level keyboard re-programming",
-			link: "https://github.com/DavRack/skr",
+			name: "",
+			link: "",
 			description: (
-          "Low level Linux tool to remap keyboard events.",
-          "Written in C and Python then rewritten in Rust.",
-          "Integrates other linux programs using posix pipes, aditionaly uses Libevdev and Systemd",
-          "Fully open-source",
+          "",
 			)
 		),
-		(
-			name: "Syntax-aware Code Finder",
-			link: "https://github.com/DavRack/scf",
-			description: (
-				"Command line tool to efectively search for code in a specific context written in Rust",
-				"Integrates 3rd party crates like Clap, Tree-sitter and hcl-rs",
-				"Fully open-source",
-			)
-		)
 	),
 	education: (
 		(
-			title: "Software engineer",
-			school: "Universidad Nacional de Colombia",
-			start_date: "Feb 2016",
-			end_date: "Apr 2023",
+			title: "",
+			school: "",
+			start_date: "",
+			end_date: "",
 			curses: (
-      	"✓ Data structures",
-      	"✓ Algorithms",
-      	"✓ Design patters",
-      	"✓ Software engineering",
-      	"✓ Artifitial inteligence",
-      	"✓ Object Oriented Programming",
-      	"✓ Functional Programming",
-      	"✓ Relational data bases",
-      	"✓ Non-Relational data-bases",
-      	"✓ Computer architecture",
-      	"✓ Operating Systems",
-      	"✓ Computer vision",
+      	"",
 			)
 		)
 	),
 	certifications: (
 		(
-			name: "EF SET English Certificate 80/100 (C2 Proficient)",
-			link: "https://www.efset.org/cert/FRFSQu"
+			name: "",
+			link: ""
 		),
-		(
-			name: "English course for developers",
-			link: "https://platzi.com/p/londonomdavid/curso/3092-ingles-developers/diploma/detalle/"
-		)
 	)
 ) = {[
 	#align(center)[#text(
@@ -287,4 +211,4 @@
 	)
 ]}
 
-#cv_template()
+#cv_template(..yaml("david.yaml"))
