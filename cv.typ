@@ -211,4 +211,4 @@
 	)
 ]}
 
-#cv_template(..yaml("david.yaml"))
+#cv_template(..yaml(sys.inputs.cvdata))

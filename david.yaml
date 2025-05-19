@@ -86,7 +86,7 @@ experience:
 
 projects:
   - name: Low level keyboard re-programming
-    link: https://github.com/DavRack/skr
+    link: https://www.github.com/DavRack/skr
     description:
       - Low level Linux tool to remap keyboard events.
       - Written in C and Python then rewritten in Rust.
@@ -94,7 +94,7 @@ projects:
       - Fully open-source
 
   - name: Syntax-aware Code Finder
-    link: https://github.com/DavRack/scf
+    link: https://www.github.com/DavRack/scf
     description:
       - Command line tool to efectively search for code in a specific context written in Rust
       - Integrates 3rd party crates like Clap, Tree-sitter and hcl-rs
