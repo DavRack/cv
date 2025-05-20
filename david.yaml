@@ -47,14 +47,14 @@ skills:
       - Spanish (Native)
       - English (C1 / Proficient)
 
-summary: I'm an daptable and enthusiastic Full Stack Software Developer with more than 4 years of experience, with a strong background in delivering high-quality solutions and leveraging in-depth business knowledge for successful implementations. Offers a perfect blend of technical expertise, effective communication, and a passion for continuous learning. Excels in collaborating with cross-functional teams and understanding complex technical concepts.
+summary: Highly motivated Software Developer with more than 4 years of experience, with a strong background in delivering high-quality solutions and leveraging in-depth business knowledge for successful implementations. Offers a perfect blend of technical expertise, effective communication, and a passion for continuous learning. Excels in collaborating with cross-functional teams and understanding complex technical concepts.
 experience:
   - position: Software engineer
     company: EPAM
     start_date: Dec 2023
     end_date: Present
     description:
-      - Developed and Mantained CI/CD pipelines using Gitlab CI/CD
+      - Developed and Mantained CI/CD pipelines using Gitlab CI/CD and Github CI/CD
       - Implemented Teradata to GCP query translation using GPT-4o API's
       - Developed a backend service to validate and translate GPC Vertex pipelines
 
