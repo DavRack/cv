@@ -12,27 +12,28 @@ skills:
   - name: Programming Languages
     skills:
       - Python
-      - TypeScript
       - Golang
       - Rust
-      - SQL
-      - HTML
-      - CSS
       - Bash
+      - TypeScript
       - C
+      - SQL
+      - CSS
+      - HTML
       - Arduino
   - name: Frameworks and Tools
     skills:
-      - Svelte
       - Linux
       - Docker
+      - Gitlab CI/CD
+      - Github CI/CD
+      - AWS
       - Git
       - Postgres
+      - Svelte
       - TailwindCSS
       - Notion
       - Splunk
-      - AWS
-      - Gitlab CI/CD
       - Kubernets
   - name: Soft skills
     skills:
@@ -55,6 +56,8 @@ experience:
     end_date: Present
     description:
       - Developed and Mantained CI/CD pipelines using Gitlab CI/CD and Github CI/CD
+      - Migrated CI/CD pipelines from Gitlab's to Github's CI/CD system
+      - Developed SDK and CLI in Go to help users to interact with our internal service
       - Implemented Teradata to GCP query translation using GPT-4o API's
       - Developed a backend service to validate and translate GPC Vertex pipelines
 
@@ -65,7 +68,6 @@ experience:
     description:
       - Led the architecture, design, and development of over 50 innovative features.
       - Effectively presented and communicated ideas and designs to more than 20 key business stakeholders
-      - Spearheaded the development and maintenance of a Single-Page Application (SPA) for a prominent business conglomerate in Colombia.
       - Worked with both legacy and new code mainly in Svelte, Python, Django rest, Javascript, PostgreSQL.
       - Optimized backend response performance by 40% through the optimization and debugging of complex (O.R.M) queries
       - Actively participated in more than 40 weekly code reviews to ensure the highest standards of code quality and system efficiency..
