@@ -7,12 +7,12 @@ links:
     link: https://www.linkedin.com/in/davrack
   - name: Github
     link: https://www.github.com/DavRack
-
-skills: 
+summary: Versatile Software Engineer with over 4 years of experience delivering high-quality, scalable solutions. Combines deep technical expertise in backend development, CI/CD, and cloud infrastructure with a proven ability to translate complex business requirements into successful products. Excels in cross-functional team collaboration and is committed to continuous learning and engineering excellence.
+skills:
   - name: Programming Languages
     skills:
       - Python
-      - Golang
+      - Go
       - Rust
       - Bash
       - TypeScript
@@ -21,108 +21,81 @@ skills:
       - CSS
       - HTML
       - Arduino
-  - name: Frameworks and Tools
+  - name: Frameworks & Tools
     skills:
       - Linux
       - Docker
+      - Kubernetes
       - Gitlab CI/CD
-      - Github CI/CD
+      - Github Actions
       - AWS
       - Git
-      - Postgres
+      - PostgreSQL
       - Svelte
       - TailwindCSS
       - Notion
       - Splunk
-      - Kubernets
-  - name: Soft skills
+  - name: Soft Skills
     skills:
       - Problem-solving
-      - Communication
-      - Teamwork
-      - Attention to detail
-      - Creativity
+      - Technical Communication
+      - Teamwork & Collaboration
+      - Attention to Detail
       - Adaptability
   - name: Languages
     skills:
       - Spanish (Native)
-      - English (C1 / Proficient)
+      - English (C2 Proficient)
 
-summary: Highly motivated Software Developer with more than 4 years of experience, with a strong background in delivering high-quality solutions and leveraging in-depth business knowledge for successful implementations. Offers a perfect blend of technical expertise, effective communication, and a passion for continuous learning. Excels in collaborating with cross-functional teams and understanding complex technical concepts.
 experience:
-  - position: Software engineer
+  - position: Software Engineer
     company: EPAM
     start_date: Dec 2023
     end_date: Present
     description:
-      - Developed and Mantained CI/CD pipelines using Gitlab CI/CD and Github CI/CD
-      - Migrated CI/CD pipelines from Gitlab's to Github's CI/CD system
-      - Developed SDK and CLI in Go to help users to interact with our internal service
-      - Implemented Teradata to GCP query translation using GPT-4o API's
-      - Developed a backend service to validate and translate GPC Vertex pipelines
+      - Engineered and maintained robust CI/CD pipelines using Gitlab CI/CD and Github Actions, supporting 200+ engineers.
+      - Worked on the seamless migration of 60+ critical CI/CD pipelines from GitLab to GitHub Actions.
+      - Developed a command-line interface and SDK in Go to streamline developer interaction with an internal service.
+      - Implemented a novel solution for translating Teradata queries to Google Cloud Platform (GCP) compatible formats using the GPT-4o API.
+      - Architected and developed a backend service for the validation and translation of Google Cloud Platform (GCP) Vertex AI pipelines.
 
-  - position: Full stack software engineer
+  - position: Full Stack Software Engineer
     company: Vertical tech S.A.S
     start_date: Apr 2021
     end_date: Dec 2023
     description:
-      - Led the architecture, design, and development of over 50 innovative features.
-      - Effectively presented and communicated ideas and designs to more than 20 key business stakeholders
-      - Worked with both legacy and new code mainly in Svelte, Python, Django rest, Javascript, PostgreSQL.
-      - Optimized backend response performance by 40% through the optimization and debugging of complex (O.R.M) queries
-      - Actively participated in more than 40 weekly code reviews to ensure the highest standards of code quality and system efficiency..
-      - Successfully migrated legacy code to a modern, maintainable, and testable codebase.
-      - Designed and implemented a sophisticated parsing system capable of transforming informal text into a structured form using a DSL.
-      - Generated comprehensive programmatic database reports in Excel and developed a dynamic dashboard using web technologies.
-      - Architected new application features with a focus on modularity and maintainability.
-      - Developed scripts for deployment, data import, and other processes, resulting in a time-saving of over 5 hours per week
-      - Successfully implemented both first and third-party APIs.
+      - Led the full-cycle design, architecture, and development of over 50 new features.
+      - Optimized backend response times by 40% by restructuring complex Django ORM queries and implementing database indexing strategies.
+      - Designed and implemented a sophisticated parsing system with a custom Domain-Specific Language (DSL) to transform unstructured text into structured, actionable data.
+      - Developed automated scripts for deployment and data processing, saving over 5 hours of manual work per week.
+      - Presented technical designs and feature proposals to over 20 key business stakeholders, ensuring alignment between engineering efforts and business objectives.
+      - Championed code quality by participating in over 15 weekly code reviews, fostering a culture of high standards and system efficiency.
 
   - position: Software Engineering Tutor
     company: Universidad Nacional de Colombia
     start_date: Oct 2019
     end_date: Jan 2021
     description:
-      - Teached and assessed a over 150 individuals in the fundamentals of Linux, Networking, and Operating Systems.
-      - Created comprehensive grading scripts utilizing Bash and Python to streamline and automate the evaluation process.
-
+      - Taught and mentored over 150 university students on the fundamentals of Linux, Networking, and Operating Systems.
+      - Created automated grading scripts in Bash and Python, reducing the time spent on evaluations and ensuring consistent, unbiased feedback.
 projects:
-  - name: Low level keyboard re-programming
+  - name: Low-Level Keyboard Remapping Tool for Linux
     link: https://www.github.com/DavRack/skr
     description:
-      - Low level Linux tool to remap keyboard events.
-      - Written in C and Python then rewritten in Rust.
-      - Integrates other linux programs using posix pipes, aditionaly uses Libevdev and Systemd
-      - Fully open-source
-
-  - name: Syntax-aware Code Finder
+      - An open-source, low-level Linux utility, rewritten in Rust from C/Python, to intercept and remap keyboard events system-wide.
+      - Utilizes `libevdev` for direct event handling and integrates with other Linux programs via POSIX pipes for advanced user customization.
+  - name: Syntax-Aware Code Searcher
     link: https://www.github.com/DavRack/scf
     description:
-      - Command line tool to efectively search for code in a specific context written in Rust
-      - Integrates 3rd party crates like Clap, Tree-sitter and hcl-rs
-      - Fully open-source
-
+      - A high-performance, open-source command-line tool written in Rust for context-aware code searching.
+      - Leverages Tree-sitter for precise AST parsing, enabling developers to find code snippets based on their syntactic role rather than just text matching.
 education:
-  title: Software engineer
+  title: B.Eng., Systems and Computer Engineering
   school: Universidad Nacional de Colombia
   start_date: Feb 2016
   end_date: Apr 2023
-  curses:
-    - ✓ Data structures
-    - ✓ Algorithms
-    - ✓ Design patters
-    - ✓ Software engineering
-    - ✓ Artifitial inteligence
-    - ✓ Object Oriented Programming
-    - ✓ Functional Programming
-    - ✓ Relational data bases
-    - ✓ Non-Relational data-bases
-    - ✓ Computer architecture
-    - ✓ Operating Systems
-    - ✓ Computer vision
-
 certifications:
   - name: EF SET English Certificate 80/100 (C2 Proficient)
     link: https://www.efset.org/cert/FRFSQu
-  - name: English course for developers
+  - name: English for Developers
     link: https://platzi.com/p/londonomdavid/curso/3092-ingles-developers/diploma/detalle/

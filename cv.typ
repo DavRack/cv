@@ -190,12 +190,12 @@
 				strong(education.school),
 				strong[#education.start_date - #education.end_date]
 			)
-			#grid(
-				columns: 4,
-				column-gutter: 1em,
-				row-gutter: 0.4em,
-				..education.curses
-			)
+			// #grid(
+			// 	columns: 4,
+			// 	column-gutter: 1em,
+			// 	row-gutter: 0.4em,
+			// 	..education.curses
+			// )
 		],
 		block[
 			#cv_section("Certifications")
